@@ -1,14 +1,15 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
+  "name": "kahootspam",
+  "version": "0.0.1",
+  "description": "sus lol",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ooof64, CuriousFellow",
+  "author": "Ooof64, CuriousFellow, hb",
   "license": "",
   "dependencies": {
-    "discord.js": "12.3.1"
+    "discord.js": "^12.3.1",
+    "kahoot-spam": "^1.1.8"
   }
 }
