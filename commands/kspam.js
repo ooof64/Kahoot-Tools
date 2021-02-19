@@ -3,8 +3,9 @@ module.exports = {
     description: "kspam!",
     guildOnly: true,
     execute(message, args){
+        var varPin = 
         const KahootSpam = require('kahoot-spam')
         let api = KahootSpam
-        api.spamWithAnswers(123456, "Name", 10, false)
+        api.spam(varPin, "amogusdrip", 156)
     }
 }
