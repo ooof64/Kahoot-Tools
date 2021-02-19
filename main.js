@@ -26,8 +26,8 @@ client.on('message', message => {
     const args = message.content.slice(prefix.length).split(/ +/);
     const command = args.shift().toLowerCase();
 
-    if(command === 'ping'){
-        client.commands.get('ping').execute(message, args);
+    if(command === 'kspam'){
+        client.commands.get('kspam').execute(message, args);
     } else if (command == 'yt'){
         client.commands.get('yt').execute(message, args);
     }
