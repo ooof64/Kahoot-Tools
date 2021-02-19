@@ -3,7 +3,7 @@ const Guild = require("discord.js")
 
 const client = new Discord.Client();
 
-const prefix = '~'
+const prefix = 'sus!'
 
 const fs = require('fs');
 
@@ -28,8 +28,8 @@ client.on('message', message => {
 
     if(command === 'kspam'){
         client.commands.get('kspam').execute(message, args);
-    } else if (command == 'yt'){
-        client.commands.get('yt').execute(message, args);
+    } else if (command == 'sus'){
+        client.commands.get('sus').execute(message, args);
     }
 	
 });
