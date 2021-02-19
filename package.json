@@ -1,13 +1,13 @@
 {
-  "name": "alphabot",
-  "version": "1.4.2",
+  "name": "",
+  "version": "",
   "description": "",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "ItzHBPlayz",
-  "license": "ISC",
+  "author": "Ooof64, CuriousFellow",
+  "license": "",
   "dependencies": {
     "discord.js": "12.3.1"
   }
