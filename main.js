@@ -30,18 +30,6 @@ client.on('message', message => {
         client.commands.get('ping').execute(message, args);
     } else if (command == 'yt'){
         client.commands.get('yt').execute(message, args);
-    } else if (command == 'help'){
-        client.commands.get('help').execute(message, args);
-    } else if (command == 'blacklist'){
-        client.commands.get('blacklist').execute(message, args);
-    } else if  (command === 'mute') {
-        client.commands.get('mute').execute(message, args);
-    } else if (command === 'ban') {
-        client.commands.get('ban').execute(message, args);
-    } else if (command === 'moderator') {
-        client.commands.get('moderator').execute(message, args);
-    } else if (command === 'developer') {
-        client.commands.get('developer').execute(message, args);
     }
 	
 });
