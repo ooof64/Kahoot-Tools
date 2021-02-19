@@ -47,4 +47,4 @@ client.on('message', message => {
 });
 
 //Add to server link: https://tinyurl.com/y4ah2h6o
-client.login('TOKEN');
+client.login('NzQ2NDYzMjc1MTA0ODYyMjM4.X0AsGQ.ZFuk1eIgU2gFZGEQxVMSZA7800k');
