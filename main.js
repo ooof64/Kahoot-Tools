@@ -17,7 +17,7 @@ for(const file of commandFiles){
 }
 
 client.once('ready', () => {
-    console.log('AlphaBot is online!');
+    console.log('THE IMPSOTER IS SUS!');
 });
 
 client.on('message', message => {
