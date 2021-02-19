@@ -6,8 +6,8 @@ module.exports = {
         if (!args.length) {
           return message.channel.send('enter a game pin dummy');
     	} else {
-    	  var varPin = ${args}
-	  message.channel.send(${args})
+    	  var varPin = `${args}`
+	  message.channel.send(ok im gonna spam kahoot `${args}`)
           const KahootSpam = require('kahoot-spam')
           let api = KahootSpam
           api.spam(varPin, "amogusdrip", 256)
