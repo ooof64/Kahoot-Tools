@@ -37,8 +37,9 @@ client.on('message', message => {
         client.commands.get('sus').execute(message, args);
     } else if (command == 'help'){
         client.commands.get('help').execute(message, args);
+    } else if (command == 'invite'){
+	client.commands.get('help').execute(message, args); 
     }
-	
 });
 
 //Add to server link: https://tinyurl.com/y4ah2h6o
