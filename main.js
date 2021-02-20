@@ -3,7 +3,7 @@ const Guild = require("discord.js")
 
 const client = new Discord.Client();
 
-const prefix = 'sus!'
+const prefix = 'k!raid'
 
 const fs = require('fs');
 
@@ -26,7 +26,7 @@ client.on('message', message => {
     const args = message.content.slice(prefix.length).split(/ +/);
     const command = args.shift().toLowerCase();
 
-    if(command === 'kspam'){
+    if(command === 'raid'){
         client.commands.get('kspam').execute(message, args);
     } else if (command == 'sus'){
         client.commands.get('sus').execute(message, args);
