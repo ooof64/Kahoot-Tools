@@ -9,7 +9,7 @@ module.exports = {
             var varPin = `${args[0]}`
             var varName = `${args[1]}`
             console.log('Autowin was run by user ' + message.member.id  + ' \(targeting game: ' + `${args[0]}` + '\)')
-            message.channel.send('Starting autoanswer in game ' + `${args[0]} ` + 'with name ' + `${args[1]}` + '.')
+            message.channel.send('Starting AutoAnswer in game ' + `${args[0]} ` + 'with name ' + `${args[1]}` + '.')
         }
     }
 }
