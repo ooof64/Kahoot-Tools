@@ -19,11 +19,13 @@ for(const file of commandFiles){
 client.on("ready", () =>{
     console.log(`kahootraid bot is online!`);
     client.user.setPresence({
-        status: "online",  
+        status: "online",
         game: {
-            name: "!help",  
+            name: "!help",
             type: "WATCHING"
-});
+        }
+    });
+ });
 
 client.on('message', message => {
     if(!message.content.startsWith(prefix) || message.author.bot) return;
