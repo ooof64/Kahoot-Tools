@@ -27,9 +27,11 @@ client.on('message', message => {
     const command = args.shift().toLowerCase();
 
     if(command === 'raid'){
-        client.commands.get('kspam').execute(message, args);
+        client.commands.get('raid').execute(message, args);
     } else if (command == 'sus'){
         client.commands.get('sus').execute(message, args);
+    } else if (command == 'help'){
+        client.commands.get('help').execute(message, args);
     }
 	
 });
