@@ -16,8 +16,13 @@ for(const file of commandFiles){
     client.commands.set(command.name, command);
 }
 
-client.once('ready', () => {
-    console.log('THE IMPSOTER IS SUS!');
+client.on("ready", () =>{
+    console.log(`kahootraid bot is online!`);
+    client.user.setPresence({
+        status: "online",  
+        game: {
+            name: "!help",  
+            type: "PLAYING"
 });
 
 client.on('message', message => {
