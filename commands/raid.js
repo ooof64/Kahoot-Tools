@@ -8,7 +8,7 @@ module.exports = {
       	} else {
     	    var varPin = `${args}`
           console.log('Raid started by user ' + message.member.id  + ' \(targeting game: ' + `${args}` + '\)')
-	      message.channel.send('Sending raid bots to ' + `${args}`)
+	      message.channel.send('Sending bots to ' + `${args}` + '.')
           const KahootSpam = require('kahoot-spam')
           let api = KahootSpam
           api.spam(varPin, "RAIDED", 256).catch(() => {})
