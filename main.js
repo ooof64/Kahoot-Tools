@@ -35,6 +35,8 @@ client.on('message', message => {
         client.commands.get('help').execute(message, args);
     } else if (command == 'invite'){
 	    client.commands.get('invite').execute(message, args); 
+    } else if (command == 'autowin') {
+        client.commands.get('autowin').execute(message, args);
     }
 });
 
