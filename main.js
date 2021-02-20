@@ -3,7 +3,7 @@ const Guild = require("discord.js")
 
 const client = new Discord.Client();
 
-const prefix = 'k!raid'
+const prefix = 'k!'
 
 const fs = require('fs');
 
