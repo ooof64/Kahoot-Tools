@@ -22,7 +22,7 @@ client.on("ready", () =>{
         status: "online",  
         game: {
             name: "!help",  
-            type: "PLAYING"
+            type: "Watching"
 });
 
 client.on('message', message => {
