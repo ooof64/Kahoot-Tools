@@ -5,3 +5,4 @@ module.exports = {
     execute(message, args){
         message.channel.send('https://tinyurl.com/ydclx73e')
     }
+}

@@ -18,13 +18,7 @@ for(const file of commandFiles){
 
 client.on("ready", () =>{
     console.log(`kahootraid bot is online!`);
-    client.user.setPresence({
-        status: "online",
-        game: {
-            name: "!help",
-            type: "WATCHING"
-        }
-    });
+    client.user.setActivity('k!help', { type: 'WATCHING' });
  });
 
 client.on('message', message => {
@@ -40,7 +34,7 @@ client.on('message', message => {
     } else if (command == 'help'){
         client.commands.get('help').execute(message, args);
     } else if (command == 'invite'){
-	client.commands.get('help').execute(message, args); 
+	    client.commands.get('invite').execute(message, args); 
     }
 });
 
