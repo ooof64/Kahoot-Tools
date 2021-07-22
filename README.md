@@ -1,3 +1,3 @@
-# EPIC SUS BOT
+# please dont throw me in jail kahoot.
 
-has a variety of very useful commands like sus!sus and sus!sus and sus!sus, it also has a very cool command called sus!sus.
+use this at your own risk, anything you do with it is your own decision and we take no responsibillity.
